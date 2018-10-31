@@ -1,4 +1,4 @@
-package com.mares.ticketer;
+package com.mares.ticketer.com.mares.ticketer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
