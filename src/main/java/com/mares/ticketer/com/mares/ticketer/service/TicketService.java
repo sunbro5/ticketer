@@ -1,6 +1,6 @@
 package com.mares.ticketer.com.mares.ticketer.service;
 
-import com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.model.Ticket;
+import com.mares.ticketer.com.mares.ticketer.model.Ticket;
 import com.mares.ticketer.com.mares.ticketer.factory.TicketFactory;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +18,7 @@ public class TicketService {
 
     /**
      * Create new ticket with sysdate, next ticket number, ticket order number as tickets size plus one
-     * and save in repository
+     * and save in repo
      *
      * @return ticket
      */
@@ -29,7 +29,7 @@ public class TicketService {
     }
 
     /**
-     * Remove ticket from repository, recalculate tickets order numbers and return removed ticket
+     * Remove ticket from repo, recalculate tickets order numbers and return removed ticket
      * @return removed ticket
      */
     public synchronized Ticket removeTicket() {

@@ -1,4 +1,4 @@
-package com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.exception;
+package com.mares.ticketer.com.mares.ticketer.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

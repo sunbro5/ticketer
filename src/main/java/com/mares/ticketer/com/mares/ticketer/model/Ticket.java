@@ -1,4 +1,4 @@
-package com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.model;
+package com.mares.ticketer.com.mares.ticketer.model;
 
 import java.util.Date;
 

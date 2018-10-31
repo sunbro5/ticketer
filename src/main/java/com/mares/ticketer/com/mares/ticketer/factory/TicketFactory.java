@@ -1,6 +1,6 @@
 package com.mares.ticketer.com.mares.ticketer.factory;
 
-import com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.model.Ticket;
+import com.mares.ticketer.com.mares.ticketer.model.Ticket;
 
 import java.util.Date;
 
@@ -18,7 +18,7 @@ public class TicketFactory {
      *
      * @param ticketNumber
      * @param ticketOrderNumber
-     * @return
+     * @return ticket
      */
     public static Ticket createNewTicket(int ticketNumber, int ticketOrderNumber) {
         return new Ticket(ticketNumber, new Date(), ticketOrderNumber);

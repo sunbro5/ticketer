@@ -1,7 +1,7 @@
 package com.mares.ticketer.com.mares.ticketer.controller;
 
-import com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.exception.ResourceNotFoundException;
-import com.mares.ticketer.com.mares.ticketer.com.mares.ticketer.model.Ticket;
+import com.mares.ticketer.com.mares.ticketer.exception.ResourceNotFoundException;
+import com.mares.ticketer.com.mares.ticketer.model.Ticket;
 import com.mares.ticketer.com.mares.ticketer.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
