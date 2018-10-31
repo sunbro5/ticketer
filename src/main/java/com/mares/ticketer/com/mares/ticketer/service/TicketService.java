@@ -17,8 +17,8 @@ public class TicketService {
     private int ticketNumber = 1;
 
     /**
-     * Create new ticket with sysdate, next ticket number, ticket order number as tickets size plus one
-     * and save in repo
+     * Create new ticket with sysdate, next ticket number, ticket order number as tickets size
+     * and save in queue
      *
      * @return ticket
      */
@@ -29,7 +29,8 @@ public class TicketService {
     }
 
     /**
-     * Remove ticket from repo, recalculate tickets order numbers and return removed ticket
+     * Remove ticket from queue, recalculate tickets order numbers and return removed ticket
+     *
      * @return removed ticket
      */
     public synchronized Ticket removeTicket() {
@@ -40,6 +41,7 @@ public class TicketService {
 
     /**
      * Return ticket from head of queue
+     *
      * @return first ticket
      */
     public Ticket getActualTicket() {
